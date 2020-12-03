@@ -5,8 +5,10 @@
 @import "./partials/navbar";
 @import "./partials/typography";
 @import "./partials/button";
-@import "./partials/hero";
-@import "./partials/main";
+@import "./partials/home/hero";
+@import "./partials/home/main";
+@import "./partials/home/ImgTab";
+
 
 body {
     background: $bg-radial-primary;
