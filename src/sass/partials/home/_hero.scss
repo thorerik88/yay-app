@@ -1,0 +1,35 @@
+.carousel-indicators li {
+    background: white;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    opacity: 1;
+    border-radius: 2px;
+}
+
+.carousel-indicators li.active {
+    background: $color-primary;
+}
+
+.caro-image-one {
+    background: url("../../../assets/carousel-img/carousel-1.jpg");
+}
+
+.caro-image-two {
+    background: url("../../../assets/carousel-img/carousel-2.jpg");
+}
+
+.caro-image-three {
+    background: url("../../../assets/carousel-img/carousel-3.jpg");
+}
+
+.caro-image {
+    margin: 0 auto;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-position: center top !important;
+}
+
+
