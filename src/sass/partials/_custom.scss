@@ -1,0 +1,28 @@
+// custom styles
+
+$color-primary: #E92569;
+$color-secondary: #0A0A0A;
+$color-paragraph: #767676;
+
+$font-primary: "Lato", sans-serif;
+$font-secondary: "Playfair Display", serif;
+
+$bg-primary: #E5E5E5;
+$bg-radial-primary: radial-gradient(#FFF, #E5E5E5);
+$bg-radial-secondary: radial-gradient(#FFF, #F5F5F5);
+
+// bootstrap styles
+
+$light: transparent;
+$navbar-light-brand-color: $color-primary;
+$navbar-light-brand-font: $font-secondary;
+$navbar-light-color: $color-secondary;
+$navbar-light-toggler-border-color: none;
+$navbar-light-toggler-icon-bg:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{#767676}' stroke-linecap='square' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          30px;
+$carousel-indicator-spacer:          5px;
+$carousel-indicator-active-bg:       $color-primary;
+
+// $card-bg: $bg-radial-secondary;

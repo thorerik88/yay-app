@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+$font-primary: "Lato", sans-serif;
+$font-secondary: "Playfair Display", serif;
+
+body {
+    font-family: $font-primary;
+    color: $color-secondary;
+}
+
+h1 {
+    color: $color-primary;
+    font-family: $font-secondary;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+h2 {
+    color: $color-primary;
+    font-size: 19px;
+}
+
+p {
+    color: $color-paragraph;
+}
