@@ -1,0 +1,36 @@
+.footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    background: #fff;
+    height: 53px;
+
+    .footer--item p {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    
+    
+    .footer {
+        height: 165px;
+
+        .footer--item:first-child {
+            width: 100%;
+            padding-top: 20px;
+        }
+
+        .footer--item:not(:first-child) {
+            flex: 1;
+        }
+        
+    }
+}
+
+

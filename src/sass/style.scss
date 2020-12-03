@@ -7,11 +7,13 @@
 @import "./partials/typography";
 @import "./partials/button";
 @import "./partials/social";
+@import "./partials/footer";
 
 // HOME
 @import "./partials/home/hero";
 @import "./partials/home/main";
 @import "./partials/home/tabContent";
+@import "./partials/home/accContent";
 
 
 body {
@@ -25,7 +27,7 @@ body {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     .wrapper {
         padding-left: 0;
         padding-right: 0;

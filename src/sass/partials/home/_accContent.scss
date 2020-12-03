@@ -1,0 +1,23 @@
+.mobile-tab {
+    
+    .mobile-tab--header {
+        color: $color-primary;
+    }
+    .mobile-tab--content {
+        background: $bg-primary;
+        border-top: 1px solid $color-primary;
+
+        .mobile-tab-content--image {
+            width: 100%;
+        }
+
+        .mobile-tab--content--share {
+            font-weight: 600;
+        }
+
+        .mobile-tab--content--social {
+            text-align: center;
+            padding-top: 1rem;
+        }
+    }
+}

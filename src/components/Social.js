@@ -1,22 +1,41 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons'
-
+import { faFacebookF, faTwitter, faVimeoV, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 function Social(props) {
 
-    const styleHeight = {
-        minHeight: props.height + "px",
-    };
-    const facebook = <FontAwesomeIcon className="" icon={faFacebookF} />
-    const twitter = <FontAwesomeIcon className="" icon={faTwitter} />
+    let socialOne, socialTwo, iconStyle = "";
 
+    // set icon style
+    if (props.color === "black") {
+        iconStyle = {
+            color: "black",
+            fontSize: props.height + "px"
+        } 
+        console.log(iconStyle)
+    } else if (props.color === "grey") {
+        iconStyle = {
+            color: "#767676",
+            fontSize: props.height + "px"
+        }
+        console.log(iconStyle)
+    }
+
+    // set icon type
+    if (props.value === "tab") {
+        socialOne = <FontAwesomeIcon icon={faFacebookF} />
+        socialTwo = <FontAwesomeIcon icon={faTwitter} />
+    } else if (props.value === "footer") {
+            socialOne = <FontAwesomeIcon icon={faVimeoV} />
+            socialTwo = <FontAwesomeIcon icon={faYoutube} />
+          }
+
+    
 
     return (
         <div className="social">
-            <span className="social--share">SHARE</span>
-            <span className="social--icon">{facebook}</span>
-            <span className="social--icon">{twitter}</span>
+            <span style={iconStyle} className="social--icon">{socialOne}</span>
+            <span style={iconStyle} className="social--icon">{socialTwo}</span>
         </div>
     )
 }

@@ -3,6 +3,7 @@ import React from 'react'
 import TopNav from "../TopNav";
 import Hero from "./Hero";
 import MainContent from "./MainContent";
+import Footer from "../Footer";
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <TopNav />
             <Hero />
             <MainContent />
+            <Footer />
         </div>
     )
 }
