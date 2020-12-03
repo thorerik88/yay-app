@@ -4,7 +4,7 @@ import Tab from "react-bootstrap/Tab"
 import Accordion from "react-bootstrap/Accordion"
 import Card from "react-bootstrap/Card"
 
-import ImgTab from "./ImgTab"
+import GetImage from "./GetImage"
 
 function Main() {
     return (
@@ -22,7 +22,7 @@ function Main() {
                         <Accordion.Collapse eventKey="0">
                             <Card.Body className="mobile-tab--content">
                                 Text one for each
-                                <div className="mobile-tab--content--img tab-img-one"></div>
+                                <GetImage value="1" type="tab"/>
                                 Social
                             </Card.Body>
                         </Accordion.Collapse>
@@ -32,7 +32,9 @@ function Main() {
                             Second
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="1">
-                            <Card.Body>Hello! I'm another body</Card.Body>
+                            <Card.Body>
+                                <GetImage value="2" type="tab"/>
+                            </Card.Body>
                         </Accordion.Collapse>
                     </Card>
                     <Card>
@@ -40,7 +42,9 @@ function Main() {
                             Third
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="1">
-                            <Card.Body>Hello! I'm another body</Card.Body>
+                            <Card.Body>
+                                <GetImage value="3" type="tab"/>
+                            </Card.Body>
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
@@ -48,13 +52,13 @@ function Main() {
             <div className="d-none d-md-block desktop-tab">
                 <Tabs defaultActiveKey="first" >
                     <Tab className="desktop-tab--header" eventKey="first" title="First">
-                        <div className="desktop-tab--header--img tab-img-one"></div>
+                        <GetImage value="1" type="tab"/>
                     </Tab>
                     <Tab eventKey="second" title="Second">
-                        {/* <ImgTab className="desktop-tab--header--img desktop-tab--header--imgTwo" /> */}
+                        <GetImage value="2" type="tab"/>
                     </Tab>
                     <Tab eventKey="third" title="Third">
-                        {/* <ImgTab className="desktop-tab--header--img desktop-tab--header--imgTwo" /> */}
+                        <GetImage value="3" type="tab"/>
                     </Tab>
                 </Tabs>
             </div>
