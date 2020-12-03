@@ -2,14 +2,14 @@ import React from 'react'
 
 import TopNav from "../TopNav";
 import Hero from "./Hero";
-import Main from "./Main";
+import MainContent from "./MainContent";
 
 function Home() {
     return (
         <div className="App">
             <TopNav />
             <Hero />
-            <Main />
+            <MainContent />
         </div>
     )
 }

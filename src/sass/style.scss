@@ -2,12 +2,16 @@
 @import "./partials/custom";
 @import "~bootstrap/scss/bootstrap";
 
+//GENERAL
 @import "./partials/navbar";
 @import "./partials/typography";
 @import "./partials/button";
+@import "./partials/social";
+
+// HOME
 @import "./partials/home/hero";
 @import "./partials/home/main";
-@import "./partials/home/images";
+@import "./partials/home/tabContent";
 
 
 body {
