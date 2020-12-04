@@ -1,0 +1,28 @@
+.clickbox-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 48px;
+
+    .clickbox-wrapper--clickbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 53px;
+        height: 48px;
+        border: 1px solid $color-primary;
+        text-align: center;
+        color: $color-primary;
+    }
+
+    .clickbox-wrapper--clickbox:first-of-type {
+        border-radius: 4px 0 0 4px;
+        background: $color-primary;
+        color: white;
+    }
+
+    .clickbox-wrapper--clickbox:last-of-type {
+        border-radius: 0 4px 4px 0;
+    }
+
+}

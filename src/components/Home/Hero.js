@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from "react-bootstrap/Carousel"
-import GetImage from "./GetImage"
+import GetImage from "../GetImage"
 
 function Hero() {
     return (

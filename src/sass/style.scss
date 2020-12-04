@@ -15,6 +15,10 @@
 @import "./partials/home/tabContent";
 @import "./partials/home/accContent";
 
+// NEWS
+@import "./partials/news/clickBox";
+@import "./partials/news/newsCards";
+
 
 body {
     background: $bg-radial-primary;
@@ -22,7 +26,7 @@ body {
 
 .wrapper {
     max-width: 1280px;
-    padding: 50px 75px;
+    padding: 50px 75px 150px;
     margin: 0 auto;
 }
 

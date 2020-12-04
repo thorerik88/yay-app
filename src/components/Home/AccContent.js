@@ -3,7 +3,7 @@ import React from 'react'
 import Accordion from "react-bootstrap/Accordion"
 import Card from "react-bootstrap/Card"
 
-import GetImage from "./GetImage"   
+import GetImage from "../GetImage"   
 import Social from "../Social"
 
 function AccContent() {
