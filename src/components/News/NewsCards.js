@@ -12,14 +12,14 @@ function NewsCards(props) {
     ];
 
     return (
-        <Card className="col-lg-3 news-cards--card">
+        <Card className="col-md-3 news-cards--card">
             <GetImage classValue="news-cards--card--image" value={props.value} type="news" />
             <Card.Body className="news-cards--card--wrapper">
                 <Card.Title>{cards[0].elementTitle}</Card.Title>
                 <Card.Text>
                 {cards[0].elementText}
                 </Card.Text>
-                <Button className="news-cards--card--wrapper--button" variant="primary">{cards[0].buttonText}</Button>
+                <Button className="news-cards--card--wrapper--button" variant="primary">{cards[0].buttonText}<span className="news-cards--card--wrapper--button--dark"></span></Button>
             </Card.Body>
         </Card>
     )
