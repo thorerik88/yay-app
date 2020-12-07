@@ -15,16 +15,17 @@ function News() {
                     <h1>News</h1>
                 </div>
                 <CardClickBox/>
-            <div className="row news-cards">
-                <NewsCards value="1" />
-                <NewsCards value="2" />
-                <NewsCards value="3" />
-                <NewsCards value="4" />
-                <NewsCards value="5" />
-                <NewsCards value="6" />
-                <NewsCards value="7" />
-                <NewsCards value="8" />
-            </div>
+                <div className="row news-cards">
+                    <NewsCards value="1" />
+                    <NewsCards value="2" />
+                    <NewsCards value="3" />
+                    <NewsCards value="4" />
+                    <NewsCards value="5" />
+                    <NewsCards value="6" />
+                    <NewsCards value="7" />
+                    <NewsCards value="8" />
+                </div>
+                <CardClickBox />
             </div>
             <Footer />
         </div>

@@ -1,9 +1,21 @@
 .news-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
 
     .news-cards--card {
+        max-width: 264px;
+        padding: 0;
+        margin: 22px 0;
+        border-radius: 10px 10px 0 0;
+        box-shadow: $box-shadow;
 
+        
         .news-cards--card--image {
             border-radius: 10px 10px 0 0;
+            min-height: 190px;
+            width: 100%;
+            background-position: center top !important;
         }
 
         .news-cards--card--wrapper {
