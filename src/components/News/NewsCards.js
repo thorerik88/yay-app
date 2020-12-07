@@ -5,22 +5,21 @@ import Button from "react-bootstrap/Button"
 
 import GetImage from "../GetImage"
 
-function NewsCards() {
-
-    
-    
-
-    
+function NewsCards(props) {
+   
+    const cards = [
+        { elementTitle: "Nunc porttitor vel", elementText: "Nunc malesuada eget est fringilla dapibus.", buttonText: "Go somewhere" },
+    ];
 
     return (
-        <Card className="col-lg-4 news-cards--card">
-            <GetImage classValue="news-cards--card--image" value="1" type="news" />
+        <Card className="col-lg-3 news-cards--card">
+            <GetImage classValue="news-cards--card--image" value={props.value} type="news" />
             <Card.Body className="news-cards--card--wrapper">
-                <Card.Title>Nunc porttitor vel</Card.Title>
+                <Card.Title>{cards[0].elementTitle}</Card.Title>
                 <Card.Text>
-                Nunc malesuada eget est fringilla dapibus.
+                {cards[0].elementText}
                 </Card.Text>
-                <Button className="news-cards--card--wrapper--button" variant="primary">Go somewhere</Button>
+                <Button className="news-cards--card--wrapper--button" variant="primary">{cards[0].buttonText}</Button>
             </Card.Body>
         </Card>
     )

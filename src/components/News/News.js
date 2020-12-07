@@ -6,6 +6,7 @@ import CardClickBox from "./CardClickBox"
 import NewsCards from "./NewsCards"
 
 function News() {
+
     return (
         <div>
             <TopNav />
@@ -15,7 +16,14 @@ function News() {
                 </div>
                 <CardClickBox/>
             <div className="row news-cards">
-                <NewsCards />
+                <NewsCards value="1" />
+                <NewsCards value="2" />
+                <NewsCards value="3" />
+                <NewsCards value="4" />
+                <NewsCards value="5" />
+                <NewsCards value="6" />
+                <NewsCards value="7" />
+                <NewsCards value="8" />
             </div>
             </div>
             <Footer />
