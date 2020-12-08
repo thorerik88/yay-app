@@ -5,6 +5,10 @@ import Button from "react-bootstrap/Button"
 import InputGroup from "react-bootstrap/InputGroup"
 import FormControl from "react-bootstrap/FormControl"
 
+import Checkbox from "./Checkbox"
+
+
+
 function ContactForm() {
     return (
         <Form className="form">
@@ -24,7 +28,7 @@ function ContactForm() {
                     <InputGroup.Prepend>
                     <InputGroup.Text>https://</InputGroup.Text>
                     </InputGroup.Prepend>
-                    <FormControl className="form--form-group--input form--form-group--input--no-radius" id="inlineFormInputGroup" />
+                    <FormControl className="form--form-group--input form--form-group--input--no-radius" />
                 </InputGroup>
             </Form.Group>
 
@@ -33,9 +37,7 @@ function ContactForm() {
                 <Form.Control className="form--form-group--input" as="textarea" rows={3} />
             </Form.Group>
 
-            <Form.Group className="form--form-group form--form-group__checkbox" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Allow us to sell your personal details to whomever we want" />
-            </Form.Group>
+            <Checkbox />
 
             <Button className="form--button" variant="primary" type="submit">
                 Submit

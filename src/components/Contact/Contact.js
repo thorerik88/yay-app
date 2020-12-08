@@ -7,6 +7,7 @@ import Details from "./Details"
 
 
 function Contact() {
+
     return (
         <div>
             <TopNav value="contact" />

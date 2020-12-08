@@ -21,7 +21,7 @@
 
 // CONTACT
 @import "./partials/contact/contactForm";
-
+@import "./partials/contact/checkbox";
 
 body {
     background: $bg-radial-primary;
@@ -31,6 +31,10 @@ body {
     max-width: 1280px;
     padding: 50px 75px 150px;
     margin: 0 auto;
+}
+
+.show {
+    display: block !important;
 }
 
 
