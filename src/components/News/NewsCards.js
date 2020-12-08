@@ -6,13 +6,19 @@ import Button from "react-bootstrap/Button"
 import GetImage from "../GetImage"
 
 function NewsCards(props) {
-   
+
+    let cardClass = "news-cards--card";
+
+    if (props.mobileHidden === "yes") {
+        cardClass = " d-none d-lg-block ";
+    } 
+
     const cards = [
         { elementTitle: "Nunc porttitor vel", elementText: "Nunc malesuada eget est fringilla dapibus.", buttonText: "Go somewhere" },
     ];
 
     return (
-        <Card className="col-md-3 news-cards--card">
+        <Card className={cardClass}>
             <GetImage classValue="news-cards--card--image" value={props.value} type="news" />
             <Card.Body className="news-cards--card--wrapper">
                 <Card.Title>{cards[0].elementTitle}</Card.Title>

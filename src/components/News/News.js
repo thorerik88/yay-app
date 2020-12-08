@@ -9,7 +9,7 @@ function News() {
 
     return (
         <div>
-            <TopNav />
+            <TopNav value="news" />
             <div className="wrapper">
                 <div className="intro">
                     <h1>News</h1>
@@ -20,10 +20,10 @@ function News() {
                     <NewsCards value="2" />
                     <NewsCards value="3" />
                     <NewsCards value="4" />
-                    <NewsCards value="5" />
-                    <NewsCards value="6" />
-                    <NewsCards value="7" />
-                    <NewsCards value="8" />
+                    <NewsCards value="5" mobileHidden="yes" />
+                    <NewsCards value="6" mobileHidden="yes" />
+                    <NewsCards value="8" mobileHidden="yes" />
+                    <NewsCards value="7" mobileHidden="yes" />
                 </div>
                 <CardClickBox />
             </div>

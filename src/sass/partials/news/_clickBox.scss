@@ -17,10 +17,17 @@
         background: white;
     }
 
+    .clickbox-wrapper--clickbox:hover {
+        cursor: pointer;
+        opacity: .7;
+    }
+
     .clickbox-wrapper--clickbox:first-of-type {
         border-radius: 4px 0 0 4px;
         background: $color-primary;
         color: white;
+        cursor: auto;
+        opacity: 1;
     }
 
     .clickbox-wrapper--clickbox:last-of-type {

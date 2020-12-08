@@ -2,6 +2,15 @@
     width: 100%;
 }
 
+.caro-image {
+    margin: 0 auto;
+    min-height: 415px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-position: center top !important;
+}
+
 .carousel-indicators li {
     background: white;
     width: 30px;
@@ -16,12 +25,6 @@
     background: $color-primary;
 }
 
-.caro-image {
-    margin: 0 auto;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-size: 100% 500px;
-    background-position: center top !important;
-}
+
 
 

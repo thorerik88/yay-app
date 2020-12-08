@@ -1,0 +1,47 @@
+.form {
+
+    background: #EFEFEF;
+    padding: 35px;
+
+    .form--form-group {
+
+        .form--form-group--label {
+            color: $color-grey;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .form--form-group--input {
+            border-radius: 4px;
+        }
+
+        .form--form-group--input--no-radius {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+    }
+
+    .form--form-group input:not([type="checkbox"]) {
+        font-size: 20px;
+        height: 56px;
+    }
+
+    .form--form-group input[type="checkbox"] {
+        
+    }
+
+    .form--button {
+        background: $color-grey;
+        padding: 20px;
+        width: 100%;
+        font-size: 22px;
+    }
+
+}
+
+// bootstrap custom
+
+.input-group-text {
+    font-size: 17px;
+}

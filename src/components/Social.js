@@ -12,13 +12,11 @@ function Social(props) {
             color: "black",
             fontSize: props.height + "px"
         } 
-        console.log(iconStyle)
     } else if (props.color === "grey") {
         iconStyle = {
             color: "#767676",
             fontSize: props.height + "px"
         }
-        console.log(iconStyle)
     }
 
     // set icon type
