@@ -21,8 +21,8 @@ function News() {
                     <NewsCards value="4" />
                     <NewsCards value="5" mobileHidden="yes" />
                     <NewsCards value="6" mobileHidden="yes" />
-                    <NewsCards value="8" mobileHidden="yes" />
                     <NewsCards value="7" mobileHidden="yes" />
+                    <NewsCards value="8" mobileHidden="yes" />
                 </div>
                 <CardClickBox />
             </div>

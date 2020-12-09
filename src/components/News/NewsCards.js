@@ -10,7 +10,7 @@ function NewsCards(props) {
     let cardClass = "news-cards--card";
 
     if (props.mobileHidden === "yes") {
-        cardClass = " d-none d-lg-block ";
+        cardClass = "news-cards--card d-none d-lg-block ";
     } 
 
     const cards = [

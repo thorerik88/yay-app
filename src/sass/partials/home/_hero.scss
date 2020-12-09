@@ -1,14 +1,7 @@
 .hero img{
     width: 100%;
-}
-
-.caro-image {
-    margin: 0 auto;
-    min-height: 415px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 500px;
-    background-position: center top !important;
+    max-height: 462px;
+    object-fit: cover;
 }
 
 .carousel-indicators li {
@@ -25,6 +18,10 @@
     background: $color-primary;
 }
 
-
+@media screen and (max-width: 991px) {
+    .hero img {
+        min-height: 287px;
+    }
+}
 
 

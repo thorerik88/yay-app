@@ -30,8 +30,8 @@ function TopNav(props) {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto navbar--nav">
                     <Nav.Link href="#home" className={homeLinkClass}>Home</Nav.Link>
-                    <Nav.Link href="#link" className={newsLinkClass}>News</Nav.Link>
-                    <Nav.Link href="#link" className={contactLinkClass}>Contact</Nav.Link>
+                    <Nav.Link href="#news" className={newsLinkClass}>News</Nav.Link>
+                    <Nav.Link href="#contact" className={contactLinkClass}>Contact</Nav.Link>
                 </Nav>
                 
                     <Form inline className="navbar--form">
