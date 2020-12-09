@@ -1,14 +1,13 @@
 import React from 'react'
 
-import TopNav from "../TopNav";
+import TopNav from "../layout/TopNav";
 import Hero from "./Hero";
 import MainContent from "./MainContent";
-import Footer from "../Footer";
+import Footer from "../layout/Footer";
 
 function Home() {
     return (
         <div className="App">
-            <TopNav value="home" />
             <Hero />
             <MainContent />
             <Footer />

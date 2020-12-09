@@ -15,8 +15,9 @@
             padding: 5px 20px;
         }
 
-        .navbar--nav--link__active {
+        .navbar--nav--link.active {
             background: white;
+            text-decoration: none;
         }
     }
 

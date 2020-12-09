@@ -3,8 +3,8 @@ import React from 'react'
 import Tabs from "react-bootstrap/Tabs"
 import Tab from "react-bootstrap/Tab"
 
-import GetImage from "../GetImage"
-import Social from "../Social"
+import GetImage from "../layout/GetImage"
+import Social from "../layout/Social"
 
 function TabContent() {
     return (

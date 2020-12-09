@@ -1,8 +1,8 @@
 import React from 'react'
 
-import TopNav from "../TopNav"
-import Intro from "../Intro"
-import Footer from "../Footer"
+import TopNav from "../layout/TopNav"
+import Intro from "../layout/Intro"
+import Footer from "../layout/Footer"
 import CardClickBox from "./CardClickBox"
 import NewsCards from "./NewsCards"
 
@@ -10,7 +10,6 @@ function News() {
 
     return (
         <div>
-            <TopNav value="news" />
             <div className="wrapper">
                 <Intro h1="News" />
                 <CardClickBox/>

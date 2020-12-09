@@ -1,17 +1,16 @@
 import React from 'react'
 
-import TopNav from "../TopNav"
-import Footer from "../Footer"
+import TopNav from "../layout/TopNav"
+import Footer from "../layout/Footer"
 import ContactForm from "./ContactForm"
 import Details from "./Details"
-import Intro from "../Intro"
+import Intro from "../layout/Intro"
 
 
 function Contact() {
 
     return (
         <div>
-            <TopNav value="contact" />
             <div className="wrapper wrapper-contact">
                 <div className="row">
                     <div className="col-lg-6">

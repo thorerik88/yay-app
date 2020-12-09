@@ -1,4 +1,10 @@
 import React from 'react'
+
+import {
+    BrowserRouter as Router,
+    NavLink
+  } from "react-router-dom";
+
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
@@ -6,22 +12,7 @@ import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 
 
-function TopNav(props) {
-
-    let activeClass = "navbar--nav--link navbar--nav--link__active";
-    let navLinkClass = "navbar--nav--link";
-
-    let homeLinkClass = navLinkClass;
-    let newsLinkClass = navLinkClass;
-    let contactLinkClass = navLinkClass; 
-
-    if (props.value === "home") {
-        homeLinkClass = activeClass;
-    } else if (props.value === "news") {
-        newsLinkClass = activeClass;
-    } else if (props.value === "contact") {
-        contactLinkClass = activeClass;
-    }
+function TopNav() {
 
     return (
         <Navbar bg="light" expand="lg" className="navbar">
@@ -29,9 +20,9 @@ function TopNav(props) {
             <Navbar.Toggle className="navbar--toggle" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto navbar--nav">
-                    <Nav.Link href="#home" className={homeLinkClass}>Home</Nav.Link>
-                    <Nav.Link href="#news" className={newsLinkClass}>News</Nav.Link>
-                    <Nav.Link href="#contact" className={contactLinkClass}>Contact</Nav.Link>
+                    <NavLink exact to="/" className="navbar--nav--link">Home</NavLink>
+                    <NavLink to="/News" className="navbar--nav--link">News</NavLink>
+                    <NavLink to="/Contact" className="navbar--nav--link">Contact</NavLink>
                 </Nav>
                 
                     <Form inline className="navbar--form">

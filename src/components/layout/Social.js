@@ -4,7 +4,8 @@ import { faFacebookF, faTwitter, faVimeoV, faYoutube } from '@fortawesome/free-b
 
 function Social(props) {
 
-    let socialOne, socialTwo, iconStyle = "";
+    let socialOne, socialTwo = "";
+    let iconStyle = {};
 
     // set icon style
     if (props.color === "black") {

@@ -1,13 +1,13 @@
 
-@import "./partials/custom";
+@import "./partials/layout/custom";
 @import "~bootstrap/scss/bootstrap";
 
-//GENERAL
-@import "./partials/navbar";
-@import "./partials/typography";
-@import "./partials/button";
-@import "./partials/social";
-@import "./partials/footer";
+// LAYOUT
+@import "./partials/layout/navbar";
+@import "./partials/layout/typography";
+@import "./partials/layout/button";
+@import "./partials/layout/social";
+@import "./partials/layout/footer";
 
 // HOME
 @import "./partials/home/hero";

@@ -3,7 +3,7 @@ import React from 'react'
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 
-import GetImage from "../GetImage"
+import GetImage from "../layout/GetImage"
 
 function NewsCards(props) {
 

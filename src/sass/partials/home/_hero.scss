@@ -18,6 +18,10 @@
     background: $color-primary;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
 @media screen and (max-width: 991px) {
     .hero img {
         min-height: 287px;
