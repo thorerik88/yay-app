@@ -41,3 +41,14 @@
 .input-group-text {
     font-size: 17px;
 }
+
+@media screen and (max-width: 991px) {
+    .wrapper.wrapper-contact {
+        width: 100%;
+    }
+
+    .wrapper-contact .intro {
+        margin-bottom: 50px;
+        padding-left: 35px;
+    }
+}

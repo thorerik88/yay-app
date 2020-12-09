@@ -6,11 +6,9 @@ function Checkbox(props) {
 
     React.useEffect(() => {
 
-        
-
         const checkbox = document.querySelector(".checkbox--toggle");
-        let checkedOne = document.querySelector(".checkbox--toggle span");
-        let checkedTwo = document.querySelector(".checkbox--toggle span.rotate");
+        const checkedOne = document.querySelector(".checkbox--toggle span");
+        const checkedTwo = document.querySelector(".checkbox--toggle span.rotate");
         checkbox.addEventListener('click', () => {
             if (checkedOne.classList != "show") {
                 checkedOne.classList.add("show");

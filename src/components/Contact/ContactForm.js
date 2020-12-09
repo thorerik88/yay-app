@@ -11,7 +11,7 @@ import Checkbox from "./Checkbox"
 
 function ContactForm() {
     return (
-        <Form className="form">
+        <Form>
             <Form.Group className="form--form-group" controlId="formBasicText">
                 <Form.Label className="form--form-group--label">Name</Form.Label>
                 <Form.Control className="form--form-group--input" type="text" />

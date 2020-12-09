@@ -1,6 +1,7 @@
 import React from 'react'
 
 import TopNav from "../TopNav"
+import Intro from "../Intro"
 import Footer from "../Footer"
 import CardClickBox from "./CardClickBox"
 import NewsCards from "./NewsCards"
@@ -11,9 +12,7 @@ function News() {
         <div>
             <TopNav value="news" />
             <div className="wrapper">
-                <div className="intro">
-                    <h1>News</h1>
-                </div>
+                <Intro h1="News" />
                 <CardClickBox/>
                 <div className="row news-cards">
                     <NewsCards value="1" />
