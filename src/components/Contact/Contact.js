@@ -1,6 +1,5 @@
 import React from 'react'
 
-import TopNav from "../layout/TopNav"
 import Footer from "../layout/Footer"
 import ContactForm from "./ContactForm"
 import Details from "./Details"

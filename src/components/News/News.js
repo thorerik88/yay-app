@@ -1,6 +1,5 @@
 import React from 'react'
 
-import TopNav from "../layout/TopNav"
 import Intro from "../layout/Intro"
 import Footer from "../layout/Footer"
 import CardClickBox from "./CardClickBox"

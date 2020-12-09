@@ -1,6 +1,5 @@
 import React from 'react'
 
-import TopNav from "../layout/TopNav";
 import Hero from "./Hero";
 import MainContent from "./MainContent";
 import Footer from "../layout/Footer";
