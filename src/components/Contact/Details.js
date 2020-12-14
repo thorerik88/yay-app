@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faFacebookF, faTwitter, faVimeoV, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 function Details(props) {
